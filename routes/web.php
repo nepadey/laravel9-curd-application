@@ -18,4 +18,4 @@ use App\Http\Controllers\ProductController;
 //     return view('welcome');
 // });
 //Route::resource('products', ProductController::class);
-Route::resource('/',ProductController::class)->only(['create','index']);
+Route::resource('/',ProductController::class)->only(['create','index','store']);
